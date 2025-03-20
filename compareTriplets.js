@@ -5,6 +5,9 @@
 // No points for a tie.
 // Write a function compareTriplets(a, b) that returns an array [aliceScore, bobScore].
 
+const a = [5, 6, 7]
+const b = [3, 6, 10]
+
 function compareTriplets(a, b) {
   let aliceScore = 0
   let bobScore = 0
@@ -20,3 +23,5 @@ function compareTriplets(a, b) {
 
   return [aliceScore, bobScore]
 }
+
+console.log(compareTriplets(a, b))
